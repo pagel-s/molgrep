@@ -63,5 +63,5 @@ You can also add this line to your shell's configuration file (e.g., `.bashrc` o
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/pagel-s/molgrep.svg?style=for-the-badge
 [contributors-url]: https://github.com/pagel-s/molgrep/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/croningp/molnca.svg?style=for-the-badge
-[stars-url]: https://github.com/croningp/molca/stargazers
+[stars-shield]: https://img.shields.io/github/stars/pagel-s/molgrep.svg?style=for-the-badge
+[stars-url]: https://github.com/pagel-s/molgrep/stargazers
