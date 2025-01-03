@@ -24,6 +24,7 @@ To search SDF files just add the file-type flag
  molgrep --smarts c1ccccc1 --path ./smiles.sdf --file-type sdf
  ```
 
+Either will return all molecules matching the smarts pattern in smiles notation!
 
 ## Prerequisites:  
 <b>NOTE:</b> [rdkitcffi](https://github.com/chrissly31415/rdkitcffi) currently only supports linux , molgrep will thus also only work on linux.   
@@ -57,6 +58,9 @@ export PATH=$PATH:/PATH/TO/REPO/molgrep/target/debug
 
 You can also add this line to your shell's configuration file (e.g., `.bashrc` or `.zshrc`) to make the change permanent.
 
+Make sure to set your LD_LIBRARY_PATH environment variable according to [rdkitcffi](https://github.com/chrissly31415/rdkitcffi?tab=readme-ov-file#installation):
+After installation you may want to update your LD_LIBRARY_PATH in order to run binaries without cargo, e.g.:
+export LD_LIBRARY_PATH=/home/username/rdkitcffi/lib/rdkitcffi_linux/linux-64/:$LD_LIBRARY_PATH
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
